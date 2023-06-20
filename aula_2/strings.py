@@ -1,14 +1,4 @@
-s = "banana";
-s = s.replace("b", "z");
-
-print(s, id(s));
-
-fruta = 'banana';
-
-print(fruta);
-
-
-# Exemplo de programa que aborda o tipo 
+#Exemplos de programa que aborda o tipo de dado string em Python
 
 nome = "Wesley"
 sobrenome = "Ribeiro"
@@ -16,11 +6,15 @@ sobrenome = "Ribeiro"
 print(nome + sobrenome);
 
 
-frase = "Olá, Mundo!";
+frase = "Olá, sou Wesley Ribeiro!";
+
+#Declaração de uma String
 print("String original: ");
 print(frase);
 print();
 
+#Acessando caracteres individuais
 print("Acessando caracteres individuais: ");
 print("Primeiro caractere: ", frase[0]);
 print("Ultimo caractere ", frase[-1]);
+print("penultimo caractere ", frase[-2]);
