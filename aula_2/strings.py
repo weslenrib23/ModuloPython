@@ -16,5 +16,5 @@ print();
 #Acessando caracteres individuais
 print("Acessando caracteres individuais: ");
 print("Primeiro caractere: ", frase[0]);
-print("Ultimo caractere ", frase[-1]);
-print("penultimo caractere ", frase[-2]);
+print("Ultimo caractere: ", frase[-1]);
+print("Penultimo caractere: ", frase[-2]);
