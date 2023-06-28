@@ -1,6 +1,11 @@
+# É semelhante a um dicionário no mundo real,
+# onde você pode procurar uma palavra (chave)
+# e encontrar o seu significado (valor)
+# associado.  ---- 'chave' : 'valor' ----
+
 meuDicionario = {
-    "nome"     : "Wesley", 
-    "sobrenome": "Ribeiro",
+    'nome'     : 'Wesley', 
+    'sobrenome': 'Ribeiro',
     'anos'     : 37
     };
 
