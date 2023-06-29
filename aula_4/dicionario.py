@@ -48,7 +48,30 @@ frutaDicionario = {
     'maçã'   : 3,
     'banana' : 6,
     'uva'    : 8,
-    'vitaminas' : {'a' : 'boa pra ele'}
+    'laranja' : 10 
 };
 
-print(frutaDicionario["vitaminas"]["a"]);
+print();
+print("Quantidade de maçãs: ", frutaDicionario.get("maçã"));
+print("Quantidade de bananas: ", frutaDicionario.get("banana"));
+
+print("Quantidade de morangos: ", frutaDicionario.get("morangos", "Não foi encontrado a definição de morango"));
+print();
+
+elementoRemovido = frutaDicionario.pop("laranja");
+
+print(elementoRemovido);
+print();
+print("Dicionário atualizado: ", frutaDicionario);
+
+frutaDicionario = {
+  'maçã'      : 3,
+  'banana'    : 6,
+  'uva'       : 8,
+  'laranja'   : 10
+};
+
+print();
+print("Chaves encontradas no dicionário: ",frutaDicionario.keys());
+print("Valores encontrados no dicionário: ", frutaDicionario.values());
+print(frutaDicionario.items());
