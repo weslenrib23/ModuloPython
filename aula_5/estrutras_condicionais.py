@@ -83,7 +83,9 @@ idade = int(input("Informe sua idade; "));
 possuiCarteira = False;
 
 if idade >= 18 and not possuiCarteira:
-    print("")
+  print("Você precisa de ter a carteira de motorista!");
+else:
+  print("Você está apto a dirigir");
 
 # Match Case
 
