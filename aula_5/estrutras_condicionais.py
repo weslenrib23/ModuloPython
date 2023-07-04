@@ -58,14 +58,14 @@ else:
 
 # Ou
 
-if usuario != usuarioCorreto:
-    print("O usuário está incorreto!");
-elif not (senha == senhaCorreta);
-    print("A senha está incorreta!");
-elif usuario == usuarioCorreto and senha == senhaCorreta:
-    print("Login bem-sucedido");
-else:
-    print("Usuário ou senha incorreto!");
+if(usuario != usuarioCorreto and senha != senhaCorreta):
+  print("Usuário e senha incorretos!");
+elif usuario != usuarioCorreto:
+  print("O usuário está incorreto!");
+elif not (senha == senhaCorreta):
+  print("A senha está incorreta!"); 
+else: 
+  print("Login bem-sucedido");
 
 # Verificação de múltiplas condições com "and" ou "or"
 
@@ -89,7 +89,7 @@ else:
 
 # Match Case
 
-camando = 'Olá, Mundo!';
+camando = 'Olá, Mundo!'
 
 match camando:
     case 'Olá, Mundo!':

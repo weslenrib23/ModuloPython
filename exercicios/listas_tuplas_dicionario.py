@@ -106,7 +106,7 @@ print();
 aluno = {
     "nome": "Wesley",
     "idade": 37,
-    "cidade": "Ferraz de Vasconcelos"
+    "cidade": "Ferraz de Vasconcelos",
     "gênero": "Masculino"
 };
 
