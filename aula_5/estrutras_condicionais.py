@@ -42,3 +42,57 @@ if senha == senha_correta:
     print("Usuário logado com sucesso.");
 else:
     print("A senha informada está errada!");
+
+# Verificação de acesso um sistema com login e senha
+
+usuario = input("Digite o seu usuário: ");
+senha = input("Digite sua senha: ");
+
+usuarioCorreto = "admin";
+senhaCorreta = "admin";
+
+if (usuario == usuarioCorreto) and (senha == senhaCorreta):
+    print("Login bem-sucedido");
+else:
+    print("Usuário ou senha incorreto!");
+
+# Ou
+
+if usuario != usuarioCorreto:
+    print("O usuário está incorreto!");
+elif not (senha == senhaCorreta);
+    print("A senha está incorreta!");
+elif usuario == usuarioCorreto and senha == senhaCorreta:
+    print("Login bem-sucedido");
+else:
+    print("Usuário ou senha incorreto!");
+
+# Verificação de múltiplas condições com "and" ou "or"
+
+numero = 10;
+
+if (numero > 0 and numero < 5) or (numero > 10 and numero < 15):
+    print("O número atende aos critérios");
+else:
+    print("O número não atende aos critérios");
+
+# Verificação de uma condição negada
+# Verificar se uma pessoa está apta a dirigir
+
+idade = int(input("Informe sua idade; "));
+possuiCarteira = False;
+
+if idade >= 18 and not possuiCarteira:
+    print("")
+
+# Match Case
+
+camando = 'Olá, Mundo!';
+
+match camando:
+    case 'Olá, Mundo!':
+        print("Olá para você também");
+    case 'Adeus, Mundo':
+        print("Adeus!");
+    case _:
+        print("Sem resultados!");
