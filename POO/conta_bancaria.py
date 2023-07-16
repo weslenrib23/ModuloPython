@@ -26,6 +26,7 @@ conta = Conta(123, "Wesley");
 conta.depositar(1000);
 conta.sacar(500);
 conta.exibir_informacoes();
+print();
 
 contaZoio = Conta(321, "Zoio");
 contaZoio.depositar(1500);
